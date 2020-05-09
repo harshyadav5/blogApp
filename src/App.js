@@ -6,6 +6,7 @@ import Blog from './containers/Blog/Blog';
 class App extends Component {
   render() {
     return (
+      // you can set base name by using basename property of BrowserRouter
       <BrowserRouter>
         <div className="App">
           <Blog />
